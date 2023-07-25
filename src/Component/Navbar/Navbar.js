@@ -1,5 +1,17 @@
 import './Navbar.css';
+document.addEventListener("DOMContentLoaded", function() {
+  const menuItems = document.querySelectorAll(".menu li");
 
+  menuItems.forEach(item => {
+    item.addEventListener("click", () => {
+      // Get the checkbox element
+      const checkbox = document.getElementById("toggle-menu");
+      
+      // Uncheck the checkbox to hide the menu
+      checkbox.checked = false;
+    });
+  });
+});
 const Navbar = () => {
   return (
       <div id="Navbar" className="Navbar-container">
