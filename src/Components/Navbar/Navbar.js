@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
       <div id="Navbar" className="Navbar-container">
             <div class="logo">
-                <img src="./logo.png"/>
+                <img src="./logo.png" alt="logo"/>
             </div>
             <ul class="nav-links">
                 <input type="checkbox" id="checkbox_toggle" />
