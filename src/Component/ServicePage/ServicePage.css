@@ -1,0 +1,20 @@
+.ServicePage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f242d;
+    padding: 2rem 8% 2rem;
+  }
+  .LGIImage {
+    width: 60%;
+  }
+  .LGIContent {
+  width: 40%;
+    text-align: right;
+  }
+  .LGIImage img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,12 +1,14 @@
 
 .Navbar-container {
-  /* position: fixed; */
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px;
+  padding: 10px;
   background-color: #fff;
   color: #14bdad;
+  width: 100%;
+  z-index: 99999;
 }
 * {
   margin: 0;
@@ -42,7 +44,10 @@ li {
 }
 
 .menu li:hover {
-  border-bottom: 1px solid #14bdad;
+  border-bottom: #14bdad;
+}
+.dropdown li:hover {
+  border-bottom: none;
 }
 
 .menu li {
@@ -53,6 +58,7 @@ li {
 .services {
   position: relative; 
 }
+
 
 .dropdown {
   background-color: #fff;
@@ -73,10 +79,6 @@ li {
   padding: 0.5em 1em;
   width: 12em;
   text-align: center;
-}
-
-.dropdown li:hover {
-  
 }
 
 .services:hover .dropdown {

@@ -1,10 +1,11 @@
 import './App.css';
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
-import Home from './Components/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import Portfolio from './Components/Portfolio/Portfolio';
-import Service from './Components/Service/Service';
+import About from './Component/About/About';
+import Contact from './Component/Contact/Contact';
+import Home from './Component/Home/Home';
+import Navbar from './Component/Navbar/Navbar';
+import Portfolio from './Component/Portfolio/Portfolio';
+import Service from './Component/Service/Service';
+import ServicePage from './Component/ServicePage/ServicePage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Home/>
           <About />
           <Service/>
+          <ServicePage />
           <Portfolio />
           <Contact />
       </div>
