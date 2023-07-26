@@ -1,72 +1,43 @@
 .ServicePage-container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1f242d;
-    padding: 2rem 8% 2rem;
-  }
-  .LGIImage {
-    width: 50%;
-  }
-  .LGIContent {
-    width: 50%;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-  }
-  .LGIImage img {
-    width: 100%;
-    height: auto;
-    padding:3em;
-  }
-  .ServicePage-container .primary-color {
-    font-size: 40px;
-    color: #14bdad;
-    font-weight: 600;
-    cursor: default;
-    padding-bottom: 15px;
-  }
-  .LGIContent-wrapper {
-    max-width: 500px;
-    border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 20px;
-    background-color:#1f242d;
-    text-align: center;
-    color: white;
-  }
-
-  @media screen and (max-width: 1008px) {
-    .ServicePage-container {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .LGIImage,
-    .LGIContent {
-      width: 100%;
-    }
-  
-    .LGIImage img {
-      padding: 2em; 
-    }
-  }
-  @media screen and (max-width: 375px) {
-    .ServicePage-container {
-      padding: 1rem; /* Adjust the padding as needed for smaller screens */
-    }
-  
-    .LGIContent-wrapper {
-      padding: 10px; /* Adjust the padding as needed for smaller screens */
-      font-size: 10px; /* Adjust the font size for better readability */
-    }
-  
-    .ServicePage-container .primary-color {
-      font-size: 25px; /* Adjust the font size for better readability */
-    }
-  }
-  
-  
-  
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 8% 2rem;
+  background-color: #1f242d;
+}
+.All-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f242d;
+  padding: 2rem 8% 4rem;
+  color: #fff;
+}
+.All-Image {
+  width: 50%;
+  padding: 1rem 4% 1rem;
+}
+.All-container img {
+  width: 100%;
+  height: auto;
+}
+.All-container .primary-color {
+  font-size: 45px;
+  color: #14bdad;
+  font-weight: 600;
+  cursor: default;
+  margin-bottom: 15px;
+}
+.All-Content {
+  width: 50%;
+}
+.header {
+  padding: 2rem 8% 2rem;
+  text-align: center;
+  color: #14bdad;
+  font-size: 23px;
+}
