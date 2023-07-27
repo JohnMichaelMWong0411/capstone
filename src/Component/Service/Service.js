@@ -7,17 +7,20 @@ const Service = () => {
     {
       title: 'Logo & Brand Identity',
       description: 'Work in harmony to create a strong and cohesive brand presence. They communicate our brands values, differentiate us from competitors, and resonate with our target audience. Our logo and brand identity are the visual embodiment of our brands promise, ensuring that every interaction with our brand leaves a lasting impression.',
-      imageUrl: './img5.jpg'
+      imageUrl: './img5.jpg',
+      linkUrl: '/service-logoandbranding'
     },
     {
       title: 'Print Design',
       description: 'Create visually stunning and effective print materials that capture attention, convey information, and leave a memorable impression on the audience. It combines artistic creativity, technical expertise, and a deep understanding of design principles to produce tangible and impactful designs that fulfill their intended purpose.',
-      imageUrl: './img4.jpg'
+      imageUrl: './img4.jpg',
+      linkUrl: '/service-print'
     },
     {
       title: 'Marketing Design',
       description: 'Target audience demographics, brand values, and marketing objectives. It involves a blend of creativity, strategic thinking, and an understanding of design principles to create visually appealing materials that resonate with the intended audience, convey key messages, and drive desired actions.',
-      imageUrl: './img13.jpg'
+      imageUrl: './img13.jpg',
+      linkUrl: '/service-marketing'
     },
   ];
 
@@ -28,7 +31,8 @@ const Service = () => {
         {services.map((service, index) => (
           <ServiceCard
             key={index}
-            title={service.title}
+            title={service.linkUrl ? <a href={service.linkUrl}>{service.title}</a> : service.title
+            }
             description={service.description}
             imageUrl={service.imageUrl}
           />
