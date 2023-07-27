@@ -12,7 +12,7 @@ const ServiceCard = ({ title, description, imageUrl }) => {
   return (
     <div className={`service-card ${expanded ? 'expanded' : ''}`}>
       <img src={imageUrl} alt={title} className="service-card__image" />
-      <h3 className="service-card__title">{title}</h3>
+      <h2 className="service-card__title">{title}</h2>
       <p className={`service-card__description ${expanded ? 'expanded' : ''}`}>
         {description}
       </p>
