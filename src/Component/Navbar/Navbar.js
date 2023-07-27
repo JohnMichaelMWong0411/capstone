@@ -4,14 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
   menuItems.forEach(item => {
     item.addEventListener("click", () => {
-      // Get the checkbox element
-      const checkbox = document.getElementById("toggle-menu");
-      
-      // Uncheck the checkbox to hide the menu
+      const checkbox = document.getElementById("checkbox_toggle");
       checkbox.checked = false;
     });
   });
 });
+
+
 const Navbar = () => {
   return (
       <div id="Navbar" className="Navbar-container">

@@ -46,9 +46,6 @@ li {
 .menu li:hover {
   border-bottom: #14bdad;
 }
-.dropdown li:hover {
-  border-bottom: none;
-}
 
 .menu li {
   padding: 5px 14px;
@@ -115,14 +112,10 @@ input[type=checkbox] {
   .menu li + li {
     margin-top: 12px;
   }
-
   input[type=checkbox]:checked ~ .menu {
     display: block;
   }
 
-  .hamburger {
-    display: block;
-  }
 
   .dropdown {
     left: 50%;

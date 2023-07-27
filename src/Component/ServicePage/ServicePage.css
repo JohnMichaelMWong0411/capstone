@@ -25,6 +25,9 @@
   width: 100%;
   height: auto;
 }
+.header h1 {
+  color: #fff;
+}
 .All-container .primary-color {
   font-size: 45px;
   color: #14bdad;
@@ -33,11 +36,18 @@
   margin-bottom: 15px;
 }
 .All-Content {
+  padding: 1rem 4% 1rem;
   width: 50%;
+  align-self: start;
 }
 .header {
   padding: 2rem 8% 2rem;
   text-align: center;
   color: #14bdad;
   font-size: 23px;
+}
+.All-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+
 }
