@@ -57,6 +57,6 @@
       cursor: pointer;
   }
   .service-card:hover {
-    translate: 5px -10px;
+    translate: -5px -5px;
     transition: 0.5s;
   }

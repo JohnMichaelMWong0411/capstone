@@ -28,11 +28,11 @@
 .header h1 {
   color: #fff;
 }
-.All-container .primary-color {
+.All-container .primary-color a{
   font-size: 45px;
   color: #14bdad;
   font-weight: 600;
-  cursor: default;
+  cursor: pointer;
   margin-bottom: 15px;
 }
 .All-Content {
