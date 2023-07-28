@@ -5,7 +5,7 @@
     justify-content: flex-start;
     align-items: center;
     color: #14bdad;
-    padding: 1rem 8% 2rem;
+    padding: 5rem 8% 2rem;
     background-image: url('../../../public/AboutImage.png');
     background-repeat: no-repeat;
     background-color: black;
@@ -37,6 +37,7 @@
   @media (max-width: 1170px) {
     .About {
       padding: 1rem 4% 2rem;
+      height: 50vh;
     }
   
     .AboutContent {
@@ -61,7 +62,7 @@
       padding: 1rem 4% 2rem;
       justify-content: center;
       text-align: center;
-      height: auto;
+      height: 50vh;
       background-position: center;
       background-size: fit;
     }
@@ -86,6 +87,7 @@
   @media (max-width: 480px) {
     .About {
       padding: 1rem 2% 2rem;
+      height: 50vh;
     }
   
     .About .secondary-color {
