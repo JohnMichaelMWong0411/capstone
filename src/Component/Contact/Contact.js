@@ -4,8 +4,9 @@ import React from 'react';
 const Contact = () => {
     return(
         <div id="Contact" className="Contact">
-            <h1>Love to hear from you,</h1>
-            <h1>Get in touch.</h1>
+            <h1>Work with the <span class="primary-color">Ink</span></h1>
+            <h4>Do you have a project you would like us to work on? Or perhaps a few questions?</h4>
+            <h4>Contact us and we will be more than happy to assist you.</h4>
             <div class="Contact-wrapper">
                 <div class="Contactcontent1">
                     <form action="/action_page.php">

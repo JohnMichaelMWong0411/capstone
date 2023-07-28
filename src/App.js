@@ -9,6 +9,7 @@ import Portfoliopage from './Pages/Portfoliopage';
 import PageService from './Pages/PageService';
 import AboutPage from './Pages/AboutPage';
 import LogoListingPage from './Pages/LogoListingPage';
+import ContactPage from './Pages/ContactPage';
 function App() {
   return (
     <Routes>
@@ -20,6 +21,7 @@ function App() {
       <Route path="/service" element={<PageService />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/logolisting" element={<LogoListingPage />} />
+      <Route path="/contact" element= {<ContactPage />} />
     </Routes>
   );
 }
