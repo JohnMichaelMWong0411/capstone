@@ -36,6 +36,27 @@ li {
   width: 190px;
 }
 
+.Navbar-container ul li a {
+  color:#14bdad;
+  text-decoration: none;
+  position: relative;
+}
+
+.Navbar-container ul li a::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #14bdad;
+  transition: width 0.3s;
+}
+
+.Navbar-container ul li a:hover::after {
+  width: 70%;
+}
 .menu {
   padding-right: 100px;
   display: flex;
