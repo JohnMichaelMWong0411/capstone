@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './ServiceCard.css';
 
-const ServiceCard = ({ title, description, imageUrl }) => {
+const ServiceCard = ({ title, description, imageUrl , linkUrl }) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -11,7 +11,14 @@ const ServiceCard = ({ title, description, imageUrl }) => {
 
   return (
     <div className={`service-card ${expanded ? 'expanded' : ''}`}>
-      <img src={imageUrl} alt={title} className="service-card__image" />
+      {/* <img src={imageUrl} alt={title} className="service-card__image" /> */}
+      {linkUrl ? (
+        <a href={linkUrl}>
+          <img src={imageUrl} alt={title} />
+        </a>
+      ) : (
+        <img src={imageUrl} alt={title} />
+      )}
       <h2 className="service-card__title">{title}</h2>
       <p className={`service-card__description ${expanded ? 'expanded' : ''}`}>
         {description}

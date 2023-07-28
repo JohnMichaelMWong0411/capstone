@@ -103,7 +103,11 @@ input[type=checkbox] {
     padding: 16px 0;
     color: #14bdad;
   }
-
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    user-select: none;
+  }
   .menu li:hover {
     display: inline-block;
     transition: 0.3s ease;
